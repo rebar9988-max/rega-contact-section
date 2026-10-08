@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ckb" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بەشی پەیوەندی - REGA Platform</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+        }
+
+        body {
+            background: #f8fafc;
+            padding: 40px 20px;
+            direction: rtl;
+        }
+
+        .contact-section {
+            max-width: 420px;
+            margin: 0 auto;
+            padding: 28px 24px;
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+        }
+
+        .contact-title {
+            text-align: center;
+            font-size: 22px;
+            font-weight: 700;
+            color: #0f172a;
+            margin-bottom: 24px;
+            position: relative;
+        }
+
+        .contact-title::after {
+            content: "";
+            display: block;
+            width: 40px;
+            height: 3px;
+            background: #2563eb;
+            margin: 10px auto 0;
+            border-radius: 2px;
+        }
+
+        .contact-card {
+            display: flex;
+            align-items: center;
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            transition: 0.25s;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .contact-card:hover {
+            background: #eff6ff;
+            border-color: #93c5fd;
+            transform: translateY(-2px);
+        }
+
+        .contact-card:last-child {
+            margin-bottom: 0;
+        }
+
+        .icon {
+            width: 42px;
+            height: 42px;
+            background: #2563eb;
+            color: white;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            margin-left: 14px;
+            flex-shrink: 0;
+        }
+
+        .info {
+            flex: 1;
+        }
+
+        .label {
+            display: block;
+            font-size: 13px;
+            color: #64748b;
+            margin-bottom: 3px;
+        }
+
+        .value {
+            font-size: 16px;
+            font-weight: 600;
+            color: #0f172a;
+            direction: ltr;
+            display: block;
+            text-align: right;
+        }
+
+        .contact-card:hover .value {
+            color: #2563eb;
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-section">
+        <h2 class="contact-title">پەیوەندیمان پێوە بکە</h2>
+
+        <a href="tel:+491784228269" class="contact-card">
+            <div class="icon">📞</div>
+            <div class="info">
+                <span class="label">تەلەفۆن</span>
+                <span class="value">+49 178 4228269</span>
+            </div>
+        </a>
+
+        <a href="mailto:info@regaplatform.com" class="contact-card">
+            <div class="icon">✉️</div>
+            <div class="info">
+                <span class="label">ئیمەیل</span>
+                <span class="value">info@regaplatform.com</span>
+            </div>
+        </a>
+
+        <a href="https://wa.me/491784228269" target="_blank" class="contact-card">
+            <div class="icon">💬</div>
+            <div class="info">
+                <span class="label">واتسئەپ</span>
+                <span class="value">+49 178 4228269</span>
+            </div>
+        </a>
+    </div>
+</body>
+</html>
